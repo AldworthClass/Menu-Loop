@@ -24,6 +24,8 @@ namespace Menu_Loop
                 Console.WriteLine("Q - Quit");
                 Console.WriteLine();
                 choice = Console.ReadLine().ToLower().Trim();
+                Console.WriteLine();
+
                 if (choice == "1")
                 {
                     //Do option 1
@@ -39,15 +41,12 @@ namespace Menu_Loop
                     Console.ReadLine();
                 }
                 // Add an else if for each valid choice...
-
                 else
                 {
                     Console.WriteLine("Invalid choice, press ENTER to continue.");
                     Console.ReadLine();
                 }
             }
-            // We are outside the menu
-
         }
     }
 }
