@@ -27,15 +27,24 @@ namespace Menu_Loop
                 if (choice == "1")
                 {
                     //Do option 1
+                    Console.WriteLine("You chose option 1");
+                    Console.WriteLine("Hit ENTER to continue.");
+                    Console.ReadLine();
                 }
                 else if (choice == "2")
                 {
                     // Do option 2
+                    Console.WriteLine("You chose option 2");
+                    Console.WriteLine("Hit ENTER to continue.");
+                    Console.ReadLine();
                 }
-                // Add an else if for each valid choice
-              
+                // Add an else if for each valid choice...
+
                 else
-                    Console.WriteLine("Invalid choice");
+                {
+                    Console.WriteLine("Invalid choice, press ENTER to continue.");
+                    Console.ReadLine();
+                }
             }
             // We are outside the menu
 
